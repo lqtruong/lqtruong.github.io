@@ -7,7 +7,11 @@
       "root": "",
       "sourceRoot": "src/main/webapp",
       "projectType": "application",
-      "architect": {}
+      "architect": {
+        "options": {
+          "outputPath": "dist"
+        }
+      }
     }
   },
   "defaultProject": "truongithub",
