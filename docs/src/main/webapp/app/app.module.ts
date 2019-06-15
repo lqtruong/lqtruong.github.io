@@ -20,6 +20,9 @@ import { TruongithubEntityModule } from './entities/entity.module';
 import * as moment from 'moment';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ActiveMenuDirective, ErrorComponent } from './layouts';
+import { GhProjectModule } from './projects';
+import { ContactModule } from './contact';
+import { BlogModule } from './blog';
 
 @NgModule({
   imports: [
@@ -38,7 +41,10 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
     TruongithubAccountModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     TruongithubEntityModule,
-    TruongithubAppRoutingModule
+    TruongithubAppRoutingModule,
+    GhProjectModule,
+    ContactModule,
+    BlogModule
   ],
   declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
   providers: [

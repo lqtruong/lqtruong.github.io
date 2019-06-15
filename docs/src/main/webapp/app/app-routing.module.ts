@@ -13,6 +13,14 @@ const LAYOUT_ROUTES = [navbarRoute, ...errorRoute];
           path: 'admin',
           loadChildren: './admin/admin.module#TruongithubAdminModule'
         },
+        {
+          path: 'blog',
+          loadChildren: './blog/blog.module#BlogModule'
+        },
+        {
+          path: 'contact',
+          loadChildren: './contact/contact.module#ContactModule'
+        },
         ...LAYOUT_ROUTES
       ],
       { enableTracing: DEBUG_INFO_ENABLED }

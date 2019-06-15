@@ -1,9 +1,11 @@
 {
   "global": {
-    "title": "Truongithub",
+    "title": "Quoc Truong LE",
     "browsehappy": "Sie benutzen einen <strong>veralteten</strong> Browser. Bitte <a href=\"http://browsehappy.com/?locale=de/\">aktualisieren Sie Ihren Browser</a>, um die Benutzerfreundlichkeit zu erhöhen.",
     "menu": {
       "home": "Startseite",
+      "blog": "Blog",
+      "contact": "Contact",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entitäten",
@@ -131,5 +133,5 @@
     "idexists": "Ein neuer {{entityName}} kann noch keine ID haben",
     "idnull": "Ungültige ID"
   },
-  "footer": "Dies ist Ihre Fußzeile"
+  "footer": "Built in @2019."
 }

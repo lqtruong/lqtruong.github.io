@@ -13,28 +13,28 @@ export class ProfileService {
   constructor(private http: HttpClient) {}
 
   getProfileInfo(): Promise<ProfileInfo> {
-    if (!this.profileInfo) {
-      this.profileInfo = this.http
-        .get<ProfileInfo>(this.infoUrl, { observe: 'response' })
-        .pipe(
-          map((res: HttpResponse<ProfileInfo>) => {
-            const data = res.body;
-            const pi = new ProfileInfo();
-            pi.activeProfiles = data['activeProfiles'];
-            const displayRibbonOnProfiles = data['display-ribbon-on-profiles'].split(',');
-            if (pi.activeProfiles) {
-              const ribbonProfiles = displayRibbonOnProfiles.filter(profile => pi.activeProfiles.includes(profile));
-              if (ribbonProfiles.length !== 0) {
-                pi.ribbonEnv = ribbonProfiles[0];
-              }
-              pi.inProduction = pi.activeProfiles.includes('prod');
-              pi.swaggerEnabled = pi.activeProfiles.includes('swagger');
-            }
-            return pi;
-          })
-        )
-        .toPromise();
-    }
-    return this.profileInfo;
+    // if (!this.profileInfo) {
+    //   this.profileInfo = this.http
+    //     .get<ProfileInfo>(this.infoUrl, { observe: 'response' })
+    //     .pipe(
+    //       map((res: HttpResponse<ProfileInfo>) => {
+    //         const data = res.body;
+    //         const pi = new ProfileInfo();
+    //         pi.activeProfiles = data['activeProfiles'];
+    //         const displayRibbonOnProfiles = data['display-ribbon-on-profiles'].split(',');
+    //         if (pi.activeProfiles) {
+    //           const ribbonProfiles = displayRibbonOnProfiles.filter(profile => pi.activeProfiles.includes(profile));
+    //           if (ribbonProfiles.length !== 0) {
+    //             pi.ribbonEnv = ribbonProfiles[0];
+    //           }
+    //           pi.inProduction = pi.activeProfiles.includes('prod');
+    //           pi.swaggerEnabled = pi.activeProfiles.includes('swagger');
+    //         }
+    //         return pi;
+    //       })
+    //     )
+    //     .toPromise();
+    // }
+    return new Promise(null); // TODO(truong): avoid call to backend
   }
 }

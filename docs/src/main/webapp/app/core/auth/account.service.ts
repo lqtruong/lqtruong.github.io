@@ -16,7 +16,8 @@ export class AccountService {
   constructor(private languageService: JhiLanguageService, private sessionStorage: SessionStorageService, private http: HttpClient) {}
 
   fetch(): Observable<HttpResponse<Account>> {
-    return this.http.get<Account>(SERVER_API_URL + 'api/account', { observe: 'response' });
+    // TODO(truong): avoid call to backend
+    return new Observable(); //this.http.get<Account>(SERVER_API_URL + 'api/account', { observe: 'response' });
   }
 
   save(account: any): Observable<HttpResponse<any>> {
