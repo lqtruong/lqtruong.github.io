@@ -13,6 +13,7 @@ h2,
 h3,
 h4 {
   font-weight: 300;
+  color: #131414ef;
 }
 
 a {
@@ -172,6 +173,14 @@ ui bootstrap tweaks
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.container-fluid {
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* jhipster-needle-scss-add-main JHipster will add new css style */

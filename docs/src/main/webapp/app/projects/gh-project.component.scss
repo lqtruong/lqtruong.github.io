@@ -1,5 +1,5 @@
 mat-card {
-  width: 350px;
+  width: 250px;
   height: 250px;
   margin: 15px;
 }
@@ -48,6 +48,9 @@ mat-card-footer {
 }
 
 .mat-button {
-  margin: 0 1px;
-  padding: 0 0px;
+  margin: 0 1px !important;
+  padding: 0 5px 0px 10px;
+}
+.mat-button:hover {
+  background-color: rgba(0, 0, 0, 0.03);
 }
