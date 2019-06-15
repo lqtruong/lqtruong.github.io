@@ -57,38 +57,5 @@
     "img": "../content/images/app-store.png",
     "imgalt": "Proj1 imgalt",
     "reflink": "#"
-  },
-  {
-    "id": "6",
-    "name": "Proj6",
-    "title": "Proj6 title",
-    "desc": "Proj6 description",
-    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg",
-    "iconalt": "Proj1 iconalt",
-    "img": "../content/images/app-store.png",
-    "imgalt": "Proj1 imgalt",
-    "reflink": "#"
-  },
-  {
-    "id": "7",
-    "name": "Proj7",
-    "title": "Proj7 title",
-    "desc": "Proj7 description",
-    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg",
-    "iconalt": "Proj1 iconalt",
-    "img": "../content/images/app-store.png",
-    "imgalt": "Proj1 imgalt",
-    "reflink": "#"
-  },
-  {
-    "id": "8",
-    "name": "Proj8",
-    "title": "Proj8 title",
-    "desc": "Proj8 description",
-    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg",
-    "iconalt": "Proj1 iconalt",
-    "img": "../content/images/app-store.png",
-    "imgalt": "Proj1 imgalt",
-    "reflink": "#"
   }
 ]

@@ -34,7 +34,6 @@ export class HomeComponent implements OnInit {
   initProjects() {
     this.projectService.getJSON().subscribe(projects => {
       projects.forEach(p => this.projects.push(p));
-      console.log(this.projects);
     });
   }
 

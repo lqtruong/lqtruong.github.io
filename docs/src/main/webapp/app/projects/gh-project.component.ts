@@ -10,7 +10,5 @@ export class GhProjectComponent implements OnInit {
   @Input() project: Project;
   constructor() {}
 
-  ngOnInit() {
-    console.log(this.project);
-  }
+  ngOnInit() {}
 }
