@@ -5,4 +5,8 @@ export class Project {
   desc: string;
   icon: string;
   iconalt: string;
+  img: string;
+  imgalt: string;
+  reflink: string;
+  techs: string;
 }

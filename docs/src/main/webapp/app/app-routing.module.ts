@@ -21,6 +21,10 @@ const LAYOUT_ROUTES = [navbarRoute, ...errorRoute];
           path: 'contact',
           loadChildren: './contact/contact.module#ContactModule'
         },
+        {
+          path: 'portfolio',
+          loadChildren: './portfolio/portfolio.module#PortfolioModule'
+        },
         ...LAYOUT_ROUTES
       ],
       { enableTracing: DEBUG_INFO_ENABLED }

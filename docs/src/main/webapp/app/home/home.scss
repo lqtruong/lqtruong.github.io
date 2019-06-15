@@ -11,3 +11,10 @@ Main page styles
 .row {
   justify-content: center;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  border: 0;
+}

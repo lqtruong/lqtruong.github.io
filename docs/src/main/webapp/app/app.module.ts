@@ -23,6 +23,8 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
 import { GhProjectModule } from './projects';
 import { ContactModule } from './contact';
 import { BlogModule } from './blog';
+import { PortfolioModule } from './portfolio';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   imports: [
@@ -44,7 +46,9 @@ import { BlogModule } from './blog';
     TruongithubAppRoutingModule,
     GhProjectModule,
     ContactModule,
-    BlogModule
+    BlogModule,
+    BrowserAnimationsModule,
+    PortfolioModule
   ],
   declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
   providers: [

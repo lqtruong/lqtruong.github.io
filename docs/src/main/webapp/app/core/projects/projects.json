@@ -1,58 +1,94 @@
 [
   {
     "id": "1",
-    "name": "Proj1",
-    "title": "Proj1 title",
-    "desc": "Proj1 description",
-    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    "name": "Proj1 have it title have it title have it title have it title have it title have it",
+    "title": "Proj1 title have it title have it title have it title have it title have it title have it ",
+    "desc": "Proj1 description have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it",
+    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+    "iconalt": "Proj1 iconalt",
+    "img": "../content/images/app-store.png",
+    "imgalt": "Proj1 imgalt",
+    "reflink": "#",
+    "techs": "Java, JPA, H2, Hibernate, Hikari, Spring Boot, Elasticsearch, Oracle, RESTful, SOAP Java, JPA, H2, Hibernate, Hikari, Spring Boot, Elasticsearch, Oracle, RESTful, SOAP Java, JPA, H2, Hibernate, Hikari, Spring Boot, Elasticsearch, Oracle, RESTful, SOAP"
   },
   {
     "id": "2",
     "name": "Proj2",
     "title": "Proj2 title",
-    "desc": "Proj2 description",
-    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    "desc": "Proj2 description have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it have it title have it title have it title have it title have it title have it",
+    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+    "iconalt": "Proj1 iconalt",
+    "img": "../content/images/app-store.png",
+    "imgalt": "Proj1 imgalt",
+    "reflink": "#",
+    "techs": "Java, JPA, H2"
   },
   {
     "id": "3",
     "name": "Proj3",
     "title": "Proj3 title",
     "desc": "Proj3 description",
-    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+    "iconalt": "Proj1 iconalt",
+    "img": "../content/images/app-store.png",
+    "imgalt": "Proj1 imgalt",
+    "reflink": "#",
+    "techs": "Java, JPA, H2"
   },
   {
     "id": "4",
     "name": "Proj4",
     "title": "Proj4 title",
     "desc": "Proj4 description",
-    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+    "iconalt": "Proj1 iconalt",
+    "img": "../content/images/app-store.png",
+    "imgalt": "Proj1 imgalt",
+    "reflink": "#",
+    "techs": "Java, JPA, H2"
   },
   {
     "id": "5",
     "name": "Proj5",
     "title": "Proj5 title",
     "desc": "Proj5 description",
-    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+    "iconalt": "Proj1 iconalt",
+    "img": "../content/images/app-store.png",
+    "imgalt": "Proj1 imgalt",
+    "reflink": "#"
   },
   {
     "id": "6",
     "name": "Proj6",
     "title": "Proj6 title",
     "desc": "Proj6 description",
-    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+    "iconalt": "Proj1 iconalt",
+    "img": "../content/images/app-store.png",
+    "imgalt": "Proj1 imgalt",
+    "reflink": "#"
   },
   {
     "id": "7",
     "name": "Proj7",
     "title": "Proj7 title",
     "desc": "Proj7 description",
-    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+    "iconalt": "Proj1 iconalt",
+    "img": "../content/images/app-store.png",
+    "imgalt": "Proj1 imgalt",
+    "reflink": "#"
   },
   {
     "id": "8",
     "name": "Proj8",
     "title": "Proj8 title",
     "desc": "Proj8 description",
-    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg"
+    "icon": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+    "iconalt": "Proj1 iconalt",
+    "img": "../content/images/app-store.png",
+    "imgalt": "Proj1 imgalt",
+    "reflink": "#"
   }
 ]
