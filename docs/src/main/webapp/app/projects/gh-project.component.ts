@@ -11,4 +11,10 @@ export class GhProjectComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  github() {
+    window.location.href = this.project.reflink;
+  }
+
+  share() {}
 }

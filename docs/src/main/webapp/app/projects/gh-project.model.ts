@@ -1,3 +1,5 @@
+import { License } from './gh-license.model';
+
 export class Project {
   id: string;
   name: string;
@@ -9,4 +11,9 @@ export class Project {
   imgalt: string;
   reflink: string;
   techs: string;
+  created_at: Date;
+  updated_at: Date;
+  pushed_at: Date;
+  language: string;
+  license: License;
 }

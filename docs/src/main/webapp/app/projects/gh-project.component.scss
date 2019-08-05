@@ -1,6 +1,6 @@
 mat-card {
   width: 250px;
-  height: 480px;
+  height: 290px;
   margin: 15px;
 }
 @media only screen and (max-width: 768px) {
@@ -38,8 +38,8 @@ img {
 mat-card-content {
   // margin-top: 15px;
   // margin: 10px 0 0;
-  min-height: 335.5px;
-  max-height: 335.5px;
+  min-height: 165.5px;
+  max-height: 165.5px;
   overflow: hidden;
   padding: 5px;
   text-align: justify;
@@ -96,7 +96,12 @@ mat-card-footer {
   text-align: left;
   margin-top: 10px;
   max-height: 80px;
-  min-height: 80px;
+  // min-height: 40px;
   overflow: hidden;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+.proj-license {
+  text-align: left;
+  margin-top: 2px;
+  overflow: hidden;
 }
