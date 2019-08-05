@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators';
 
 @Injectable({ providedIn: 'root' })
 export class GhProjectService {
-  url = 'https://api.github.com/users/lqtruong/repos';
+  url = 'https://api.github.com/users/lqtruong/repos?sort=created&direction=asc&page=1&per_page=100';
   excluses = ['blog', 'lqtruong.github.io'];
 
   constructor(private client: HttpClient) {}
