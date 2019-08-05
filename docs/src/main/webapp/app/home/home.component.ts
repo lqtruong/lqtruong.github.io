@@ -16,6 +16,11 @@ export class HomeComponent implements OnInit {
 
   projects: Project[] = [];
 
+  pageIndex: number = 0;
+  pageSize: number = 20;
+  lowValue: number = 0;
+  highValue: number = 20;
+
   constructor(
     private accountService: AccountService,
     private loginModalService: LoginModalService,
@@ -51,5 +56,17 @@ export class HomeComponent implements OnInit {
 
   login() {
     this.modalRef = this.loginModalService.open();
+  }
+
+  getPaginatorData(event) {
+    console.log(event);
+    if (event.pageIndex === this.pageIndex + 1) {
+      this.lowValue = this.lowValue + this.pageSize;
+      this.highValue = this.highValue + this.pageSize;
+    } else if (event.pageIndex === this.pageIndex - 1) {
+      this.lowValue = this.lowValue - this.pageSize;
+      this.highValue = this.highValue - this.pageSize;
+    }
+    this.pageIndex = event.pageIndex;
   }
 }
