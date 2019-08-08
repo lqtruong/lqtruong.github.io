@@ -18,3 +18,7 @@ a {
   outline: none;
   border: 0;
 }
+
+::ng-deep .mat-icon-button {
+  outline: none !important;
+}

@@ -8,7 +8,7 @@ import { LoginModalService, AccountService, Account, GhProjectService } from 'ap
 @Component({
   selector: 'jhi-home',
   templateUrl: './home.component.html',
-  styleUrls: ['home.scss']
+  styleUrls: ['./home.scss']
 })
 export class HomeComponent implements OnInit {
   account: Account;
