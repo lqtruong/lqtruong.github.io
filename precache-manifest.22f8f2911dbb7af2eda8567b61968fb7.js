@@ -20,46 +20,46 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./i18n/vi.json"
   },
   {
-    "url": "app/10.c1349b0b0e047987387a.chunk.js"
+    "url": "app/10.9132e4a5fda458b93b88.chunk.js"
   },
   {
-    "url": "app/11.c1349b0b0e047987387a.chunk.js"
+    "url": "app/11.9132e4a5fda458b93b88.chunk.js"
   },
   {
-    "url": "app/3.c1349b0b0e047987387a.chunk.js"
+    "url": "app/3.9132e4a5fda458b93b88.chunk.js"
   },
   {
-    "url": "app/4.c1349b0b0e047987387a.chunk.js"
+    "url": "app/4.9132e4a5fda458b93b88.chunk.js"
   },
   {
-    "url": "app/5.c1349b0b0e047987387a.chunk.js"
+    "url": "app/5.9132e4a5fda458b93b88.chunk.js"
   },
   {
-    "url": "app/6.c1349b0b0e047987387a.chunk.js"
+    "url": "app/6.9132e4a5fda458b93b88.chunk.js"
   },
   {
-    "url": "app/7.c1349b0b0e047987387a.chunk.js"
+    "url": "app/7.9132e4a5fda458b93b88.chunk.js"
   },
   {
-    "url": "app/8.c1349b0b0e047987387a.chunk.js"
+    "url": "app/8.9132e4a5fda458b93b88.chunk.js"
   },
   {
-    "url": "app/9.c1349b0b0e047987387a.chunk.js"
+    "url": "app/9.9132e4a5fda458b93b88.chunk.js"
   },
   {
-    "url": "app/global.c1349b0b0e047987387a.bundle.js"
+    "url": "app/global.9132e4a5fda458b93b88.bundle.js"
   },
   {
-    "url": "app/main.c1349b0b0e047987387a.bundle.js"
+    "url": "app/main.9132e4a5fda458b93b88.bundle.js"
   },
   {
-    "url": "app/main.c1349b0b0e047987387a.bundle.js.LICENSE"
+    "url": "app/main.9132e4a5fda458b93b88.bundle.js.LICENSE"
   },
   {
-    "url": "app/polyfills.c1349b0b0e047987387a.bundle.js"
+    "url": "app/polyfills.9132e4a5fda458b93b88.bundle.js"
   },
   {
-    "url": "app/polyfills.c1349b0b0e047987387a.bundle.js.LICENSE"
+    "url": "app/polyfills.9132e4a5fda458b93b88.bundle.js.LICENSE"
   },
   {
     "url": "content/caf1c2b432b5b77c5607b636395ab471.svg"
@@ -157,7 +157,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "content/images/logo-jhipster.png"
   },
   {
-    "revision": "8058e3214031d5683b60",
+    "revision": "88a1838d4e29bc7a78a3",
     "url": "content/main.f8397a3678f2ee3e5acc.css"
   },
   {
@@ -177,7 +177,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "favicon.ico"
   },
   {
-    "revision": "e6a73f629d48a70c9d20047ff2f848d2",
+    "revision": "4367d47b0a4606dfd04096865a3c6428",
     "url": "index.html"
   },
   {
