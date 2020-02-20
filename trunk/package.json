@@ -106,6 +106,8 @@
     "ngc": "ngc -p tsconfig-aot.json",
     "cleanup": "rimraf build/resources/main/static/ build/resources/main/aot",
     "clean-www": "rimraf build/resources/main/static/app/{src,build/}",
+    "cleanup-prod": "rimraf ../app/ ../content/ ../i18n/ ../swagger-ui/ ../favicon.ico ../index.html ../manifest.webapp ../precache*.js ../robots.txt ../service-worker.js",
+    "clean-www-prod": "rimraf ../app/{src,build/}",
     "start": "npm run webpack:dev",
     "start-tls": "npm run webpack:dev -- --env.tls",
     "serve": "npm run start",
@@ -117,7 +119,7 @@
     "webpack:build:main": "npm run webpack -- --config webpack/webpack.dev.js --env.stats=minimal",
     "webpack:build": "npm run cleanup && npm run webpack:build:main",
     "webpack:prod:main": "npm run webpack -- --config webpack/webpack.prod.js --profile",
-    "webpack:prod": "npm run cleanup && npm run webpack:prod:main && npm run clean-www",
+    "webpack:prod": "npm run cleanup-prod && npm run webpack:prod:main && npm run clean-www-prod",
     "webpack:test": "npm run test",
     "webpack-dev-server": "node --max_old_space_size=4096 node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js"

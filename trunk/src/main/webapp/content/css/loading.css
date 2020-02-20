@@ -1,4 +1,4 @@
-@keyframes lds-pacman-1 {
+/* @keyframes lds-pacman-1 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -83,7 +83,7 @@
     transform: translate(70px, 0);
     opacity: 1;
   }
-}
+} */
 
 .app-loading {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -93,6 +93,7 @@
   align-items: center;
   justify-content: center;
   top: 10em;
+  color: white;
 }
 .app-loading p {
   display: block;

@@ -133,5 +133,5 @@
       "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
     }
   },
-  "footer": "Đây là chân trang của bạn"
+  "footer": "Phát triển bởi <a href=\"https://www.linkedin.com/in/tleq/\" target=\"_blank\">Trường</a> năm @2020."
 }
