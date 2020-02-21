@@ -1,0 +1,22 @@
+<mat-card class="hero-card" *ngIf="hero">
+  <mat-card-header>
+    <a mat-card-avatar>
+      <img alt="hero avatar" mat-card-avatar [src]="hero.avatarThumbnailUrl" />
+    </a>
+    <mat-card-title>
+      <a class="hero-detail-link">
+        hero.name
+      </a>
+    </mat-card-title>
+    <mat-card-subtitle>
+      <a class="hero-detail-link">
+        hero.alterEgo
+      </a>
+    </mat-card-subtitle>
+    <div class="flex-spacer"></div>
+    <div class="hero-actions">
+      1251
+      <mat-icon class="icon__like--red">favorite</mat-icon>
+    </div>
+  </mat-card-header>
+</mat-card>

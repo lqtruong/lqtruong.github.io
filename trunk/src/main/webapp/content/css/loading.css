@@ -79,6 +79,14 @@ body {
   background-color: transparent;
 }
 
+.loading-error {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
 /* X-ROTATING BOXES */
 
 .spin-border-1 {
